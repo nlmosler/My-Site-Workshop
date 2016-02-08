@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #ff6600;
 }
 
 /* Section Styles */
@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ff6600;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/keyboard.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ff6600;
 }
 
 ul.skills {
@@ -165,6 +165,14 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.name a{
+  color: white;
+}
+
+.name a:hover{
+  color: #ff6600;
 }
 
 /* Styles for larger screens */
